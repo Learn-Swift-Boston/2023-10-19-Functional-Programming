@@ -10,7 +10,7 @@ let integers = Array(1...10)
 
 func evensImperative(from input: [Int]) -> [Int] {
     var evens: [Int] = []
-    for integer in integers {
+    for integer in input {
         if integer.isMultiple(of: 2) {
             evens.append(integer)
         }
